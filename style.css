@@ -1,58 +1,3 @@
-html {
-}
-
-p.errormsg {
-    color:#000000;
-    font-size: 1.5rem;
-    font-weight:800;
-    text-shadow: #000000 0px 0px 1px;
-}
-
-p.confmsg {
-    color:#FFFFFF;
-    font-size: 1.5rem;
-    font-weight:800;
-    text-shadow: #000000 0px 0px 1px;
-}
-
-input {
-    padding:0.5rem;
-    margin: 0.7rem 0;
-    border:0.1rem solid #FFFFFF;
-    -webkit-border-radius: 0.5rem;
-    border-radius: 0.5rem;
-    -moz-box-shadow:     0 0 10px rgba(0,0,0,.3);
-    -webkit-box-shadow:  0 0 10px rgba(0,0,0,.3);
-    box-shadow:          0 0 10px rgba(0,0,0,.3);
-}
-
-input:focus {
-    -moz-box-shadow:     0 0 10px rgba(255, 255, 255, .6);
-    -webkit-box-shadow:  0 0 10px rgba(255, 255, 255, .6);
-    box-shadow:          0 0 10px rgba(255, 255, 255, .6);
-}
-
-
-input[type=submit] {
-    padding:0.7rem 2rem;
-    font-size: 1.2em;
-    background:rgba(0, 0, 0, 0.4);
-    color:#FFFFFF;
-    font-weight: 800;
-    border:0 none;
-    cursor:pointer;
-    -webkit-border-radius: 0.5rem;
-    border-radius: 0.5rem;
-}
-
-input[type=submit]:hover {
-    background:rgba(255, 255, 255, 0.8);
-    color: #000;
-    -moz-box-shadow:     0 0 10px rgba(255, 255, 255, .6);
-    -webkit-box-shadow:  0 0 10px rgba(255, 255, 255, .6);
-    box-shadow:          0 0 10px rgba(255, 255, 255, .6);
-}
-
 
 h1 {
     font-size: 2.5em;
@@ -81,12 +26,12 @@ p {
     color:#FFFFFF;
 
 }
-/* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
+
 body {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
     color:#000000;
-    background: linear-gradient(to bottom right, rgb(255, 0, 48), rgb(255, 227, 0));
+    background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(30, 20, 100));
     background-repeat: no-repeat;
     background-attachment: fixed;
 
@@ -134,7 +79,6 @@ body {
     width:100%;
     height:100%;
     top:0;
-    /*background: url(img/bg/1.jpg) no-repeat center center fixed;*/
 }
 
 .container img.img1, img.img2 {
@@ -153,15 +97,15 @@ body {
 .avatar {
     border-radius: 0px;
     height: 150px;
-
     width: auto;
     -moz-box-shadow:     0 0 10px rgba(0,0,0,.3);
     -webkit-box-shadow:  0 0 10px rgba(0,0,0,.3);
     box-shadow:          0 0 10px rgba(0,0,0,.3);
     }
 
-@media only screen and (min-width: 769px){
 
+
+@media only screen and (min-width: 900px){
     .avatar{
         height: 30%;
         width: 30%;
@@ -169,54 +113,30 @@ body {
         margin: 1em;
         margin-right: 2em;
     }
+
     .post {
         border-radius: 0px;
         padding: 2em;
         height: auto;
         min-height: 360px;
-        /* background-color:rgba(0, 0, 0, 0.1); */
-
         opacity: 1;
         max-width:100%;
         width: 60%;
         margin-top: 2em;
         margin-left:auto;
         margin-right:auto;
-        /* -moz-box-shadow:     0 0 10px rgba(0,0,0,.3);
-        -webkit-box-shadow:  0 0 10px rgba(0,0,0,.3);
-        box-shadow:          0 0 10px rgba(0,0,0,.3); */
         text-align: center;
-
     }
 
-    .message{
-        border-radius: 0px;
-        padding: 2em;
-        height: auto;
-        opacity: 1;
-        max-width:100%;
-        width: 60%;
-        margin-top: 1em;
-        margin-left:auto;
-        margin-right:auto;
-        background-color:rgba(255, 255, 255, 0.1);
-    }
-
-    .footer { /*menu on top*/
-        background-color: rgba(0, 0, 0, 0.8);
+    .footer {
         padding: 15px;
         width:100%;
         height:auto;
-        -moz-box-shadow:    0 0 10px rgba(0,0,0,.3);
-        -webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
-        box-shadow:         0 0 10px rgba(0,0,0,.3);
         margin-left:-8px;
         margin-right:-8px;
         opacity: 0.7;
         position: fixed;
         bottom: 0;
-        /* overflow: hidden; */
-
     }
 
     .footer_links{
@@ -232,16 +152,14 @@ body {
         font-size: 2em;
         font-family: 'Open Sans', sans-serif;
         font-weight: 800;
-        color:#F0F0F0;
+        color:#FFFFFF;
         text-decoration:none;
         text-transform:uppercase;
-
         -webkit-transition: all 0.2s ease-out;
         -moz-transition: all 0.2s ease-out;
         -o-transition: all 0.2s ease-out;
         -ms-transition: all 0.2s ease-out;
         transition: all 0.2s ease-out;
-
     }
 
     .footer a:hover{
@@ -249,20 +167,19 @@ body {
         color:#FFFFFF;
 
         -webkit-animation: fadelink 0.2s; /* Safari, Chrome and Opera > 12.1 */
-        -moz-animation: fadelink 0.2s; /* Firefox < 16 */
-        -ms-animation: fadelink 0.2s; /* Internet Explorer */
-        -o-animation: fadelink 0.2s; /* Opera < 12.1 */
-        animation: fadelink 0.2s;
+           -moz-animation: fadelink 0.2s; /* Firefox < 16 */
+            -ms-animation: fadelink 0.2s; /* Internet Explorer */
+             -o-animation: fadelink 0.2s; /* Opera < 12.1 */
+                animation: fadelink 0.2s;
     }
-} /*@media*/
+}
 
-@media only screen and (max-width: 768px){
 
+@media only screen and (max-width: 899px){
     .post {
         border-radius: 0.5rem;
         padding: 0.1rem 0 1rem 0;
         height: auto;
-        /* background-color:rgba(0, 0, 0, 0.1); */
         opacity: 1;
         width: 100%;
         margin-top: 1em;
@@ -270,44 +187,17 @@ body {
         margin-left:0;
         margin-right:0;
         text-align: center;
-        /* -moz-box-shadow:     0 0 10px rgba(0,0,0,.3);
-        -webkit-box-shadow:  0 0 10px rgba(0,0,0,.3);
-        box-shadow:          0 0 10px rgba(0,0,0,.3); */
-
-    }
-    .message {
-        border-radius: 0.5rem;
-        padding: 0.1rem 0 2rem 0;
-        height: auto;
-        background-color:rgba(0, 0, 0, 0.1);
-        opacity: 1;
-        width: 100%;
-        margin-top: 1em;
-        margin-bottom: 1em;
-        margin-left:0;
-        margin-right:0;
-        text-align: center;
-        -moz-box-shadow:     0 0 10px rgba(0,0,0,.3);
-        -webkit-box-shadow:  0 0 10px rgba(0,0,0,.3);
-        box-shadow:          0 0 10px rgba(0,0,0,.3);
-
     }
 
-    .footer { /*menu on top*/
+
+    .footer {
         border-radius: 0.5rem;
-        /* background-color: rgba(0, 0, 0, 0.1); */
-        /* width:100%; */
         height:auto;
-        /* -moz-box-shadow:    0 0 10px rgba(0,0,0,.3);
-        -webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
-        box-shadow:         0 0 10px rgba(0,0,0,.3); */
         padding-top: 1rem;
         padding-bottom: 1rem;
         margin-left:0;
         margin-top:1rem;
         margin-right:0;
-        /* bottom: 0; */
-
     }
 
     .footer_links{
@@ -323,15 +213,15 @@ body {
         font-size: 1.2em;
         font-family: 'Open Sans', sans-serif;
         font-weight: 800;
-        color:#F0F0F0;
+        color:#FFFFFF;
         text-decoration:none;
         text-transform:uppercase;
 
         -webkit-transition: all 0.2s ease-out;
-        -moz-transition: all 0.2s ease-out;
-        -o-transition: all 0.2s ease-out;
-        -ms-transition: all 0.2s ease-out;
-        transition: all 0.2s ease-out;
+           -moz-transition: all 0.2s ease-out;
+             -o-transition: all 0.2s ease-out;
+            -ms-transition: all 0.2s ease-out;
+                transition: all 0.2s ease-out;
 
     }
 
@@ -339,11 +229,11 @@ body {
         text-shadow: #FFFFFF 0px 0px 5px;
         color:#FFFFFF;
 
-        -webkit-animation: fadelink 0.2s; /* Safari, Chrome and Opera > 12.1 */
-        -moz-animation: fadelink 0.2s; /* Firefox < 16 */
-        -ms-animation: fadelink 0.2s; /* Internet Explorer */
-        -o-animation: fadelink 0.2s; /* Opera < 12.1 */
-        animation: fadelink 0.2s;
+        -webkit-animation: fadelink 0.2s;
+           -moz-animation: fadelink 0.2s;
+            -ms-animation: fadelink 0.2s;
+             -o-animation: fadelink 0.2s;
+                animation: fadelink 0.2s;
     }
 }
 
