@@ -31,6 +31,7 @@ body {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
     color:#000000;
+    background-color: #000000;
     background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(30, 20, 100));
     background-repeat: no-repeat;
     background-attachment: fixed;
